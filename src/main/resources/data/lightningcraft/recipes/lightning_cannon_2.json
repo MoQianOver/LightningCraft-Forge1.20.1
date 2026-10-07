@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["EQE", "ICI", "EDE"],
+  "key": {
+    "E": { "type": "forge:partial_nbt", "item": "lightningcraft:rod", "nbt": "{Damage:8}" },
+    "Q": { "type": "forge:partial_nbt", "item": "lightningcraft:material", "nbt": "{Damage:4}" },
+    "C": {"item": "lightningcraft:lightning_cannon", "count": 1, "nbt": "{Damage:1}"},
+    "I": { "type": "forge:partial_nbt", "item": "lightningcraft:rod", "nbt": "{Damage:9}" },
+    "D": { "type": "forge:partial_nbt", "item": "lightningcraft:dust", "nbt": "{Damage:2}" }
+  },
+  "result": {"item": "lightningcraft:lightning_cannon", "count": 1, "nbt": "{Damage:2}"}
+}

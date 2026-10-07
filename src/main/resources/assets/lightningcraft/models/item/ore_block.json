@@ -1,0 +1,8 @@
+{
+    "parent": "lightningcraft:block/underworld_iron_ore",
+    "overrides": [
+        { "predicate": { "lightningcraft:meta": 1 }, "model": "lightningcraft:block/underworld_gold_ore" },
+        { "predicate": { "lightningcraft:meta": 2 }, "model": "lightningcraft:block/underworld_diamond_ore" },
+        { "predicate": { "lightningcraft:meta": 3 }, "model": "lightningcraft:block/underworld_emerald_ore" }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "variant=0": { "model": "lightningcraft:block/underworld_iron_ore" },
+		"variant=1": { "model": "lightningcraft:block/underworld_gold_ore" },
+		"variant=2": { "model": "lightningcraft:block/underworld_diamond_ore" },
+		"variant=3": { "model": "lightningcraft:block/underworld_emerald_ore" },
+        "variant=4": { "model": "lightningcraft:block/underworld_iron_ore" },
+        "variant=5": { "model": "lightningcraft:block/underworld_iron_ore" },
+        "variant=6": { "model": "lightningcraft:block/underworld_iron_ore" },
+        "variant=7": { "model": "lightningcraft:block/underworld_iron_ore" },
+        "variant=8": { "model": "lightningcraft:block/underworld_iron_ore" },
+        "variant=9": { "model": "lightningcraft:block/underworld_iron_ore" },
+        "variant=10": { "model": "lightningcraft:block/underworld_iron_ore" },
+        "variant=11": { "model": "lightningcraft:block/underworld_iron_ore" },
+        "variant=12": { "model": "lightningcraft:block/underworld_iron_ore" },
+        "variant=13": { "model": "lightningcraft:block/underworld_iron_ore" },
+        "variant=14": { "model": "lightningcraft:block/underworld_iron_ore" },
+        "variant=15": { "model": "lightningcraft:block/underworld_iron_ore" }
+    }
+}

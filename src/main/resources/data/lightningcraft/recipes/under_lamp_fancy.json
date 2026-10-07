@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["AB", "BA"],
+  "key": {
+    "A": { "type": "forge:partial_nbt", "item": "lightningcraft:light_block", "nbt": "{Damage:0}" },
+    "B": { "type": "forge:partial_nbt", "item": "lightningcraft:light_block", "nbt": "{Damage:1}" }
+  },
+  "result": {"item": "lightningcraft:light_block", "count": 4, "nbt": "{Damage:2}"}
+}

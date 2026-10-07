@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "type=bottom,variant=0": { "model": "lightningcraft:block/thunderstone_slab_lower" },
+        "type=top,variant=0":    { "model": "lightningcraft:block/thunderstone_slab_upper" },
+        "type=double,variant=0": { "model": "lightningcraft:block/thunderstone" },
+
+        "type=bottom,variant=1": { "model": "lightningcraft:block/demonstone_slab_lower" },
+        "type=top,variant=1":    { "model": "lightningcraft:block/demonstone_slab_upper" },
+        "type=double,variant=1": { "model": "lightningcraft:block/demonstone" },
+
+        "type=bottom,variant=2": { "model": "lightningcraft:block/understone_slab_lower" },
+        "type=top,variant=2":    { "model": "lightningcraft:block/understone_slab_upper" },
+        "type=double,variant=2": { "model": "lightningcraft:block/understone" },
+
+        "type=bottom,variant=3": { "model": "lightningcraft:block/under_plank_slab_lower" },
+        "type=top,variant=3":    { "model": "lightningcraft:block/under_plank_slab_upper" },
+        "type=double,variant=3": { "model": "lightningcraft:block/underworld_planks" }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "parent": "lightningcraft:block/thunderstone",
+    "overrides": [
+        { "predicate": { "lightningcraft:meta": 1 }, "model": "lightningcraft:block/thunderstone_brick" },
+        { "predicate": { "lightningcraft:meta": 2 }, "model": "lightningcraft:block/thunderstone_brick_chiseled" },
+        { "predicate": { "lightningcraft:meta": 3 }, "model": "lightningcraft:block/demonstone" },
+        { "predicate": { "lightningcraft:meta": 4 }, "model": "lightningcraft:block/demonstone_brick" },
+        { "predicate": { "lightningcraft:meta": 5 }, "model": "lightningcraft:block/demonstone_brick_chiseled" },
+        { "predicate": { "lightningcraft:meta": 6 }, "model": "lightningcraft:block/understone" },
+        { "predicate": { "lightningcraft:meta": 7 }, "model": "lightningcraft:block/understone_brick" },
+        { "predicate": { "lightningcraft:meta": 8 }, "model": "lightningcraft:block/understone_brick_chiseled" },
+        { "predicate": { "lightningcraft:meta": 9 }, "model": "lightningcraft:block/thunderstone_brick_fancy" },
+        { "predicate": { "lightningcraft:meta": 10 }, "model": "lightningcraft:block/demonstone_brick_fancy" },
+        { "predicate": { "lightningcraft:meta": 11 }, "model": "lightningcraft:block/understone_brick_fancy" },
+        { "predicate": { "lightningcraft:meta": 12 }, "model": "lightningcraft:block/thunderstone_brick_fancy_2" },
+        { "predicate": { "lightningcraft:meta": 13 }, "model": "lightningcraft:block/demonstone_brick_fancy_2" },
+        { "predicate": { "lightningcraft:meta": 14 }, "model": "lightningcraft:block/understone_brick_fancy_2" }
+    ]
+}

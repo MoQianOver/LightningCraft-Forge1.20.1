@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "variant=0": { "model": "lightningcraft:block/air_terminal" },
+        "variant=1": { "model": "lightningcraft:block/air_terminal" },
+        "variant=2": { "model": "lightningcraft:block/air_terminal" },
+        "variant=3": { "model": "lightningcraft:block/air_terminal" },
+        "variant=4": { "model": "lightningcraft:block/air_terminal" },
+        "variant=5": { "model": "lightningcraft:block/air_terminal" },
+        "variant=6": { "model": "lightningcraft:block/air_terminal" },
+        "variant=7": { "model": "lightningcraft:block/air_terminal" },
+        "variant=8": { "model": "lightningcraft:block/air_terminal" },
+        "variant=9": { "model": "lightningcraft:block/air_terminal" },
+        "variant=10": { "model": "lightningcraft:block/air_terminal" },
+        "variant=11": { "model": "lightningcraft:block/air_terminal" },
+        "variant=12": { "model": "lightningcraft:block/air_terminal" },
+        "variant=13": { "model": "lightningcraft:block/air_terminal" },
+        "variant=14": { "model": "lightningcraft:block/air_terminal" },
+        "variant=15": { "model": "lightningcraft:block/air_terminal" }
+    }
+}

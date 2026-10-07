@@ -1,0 +1,29 @@
+package org.lightningcraft.integration.tconstruct;
+
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.item.ItemStack;
+import org.lightningcraft.init.LCFluids;
+import org.lightningcraft.ref.RefStrings;
+import org.lightningcraft.util.Effect;
+import slimeknights.tconstruct.library.modifiers.ModifierNBT;
+import slimeknights.tconstruct.library.traits.AbstractTraitLeveled;
+import slimeknights.tconstruct.library.utils.TinkerUtil;
+
+public class TraitLightning extends AbstractTraitLeveled {
+
+	public TraitLightning(int levels) {
+		super(RefStrings.MODID + ":lightning", LCFluids.moltenElectricium.getColor(), 3, levels);
+	}
+
+	@Override
+	public void afterHit(ItemStack tool,  LivingEntity player, LivingEntity target, float damageDealt, boolean wasCritical, boolean wasHit) {
+		ModifierNBT data = new ModifierNBT(TinkerUtil.getModifierTag(tool, name));
+		if(wasHit) {
+			if(!player.isSneaking() && random.nextDouble() < 0.25 + (wasCritical ? 0.1 : 0) + (0.1 * data.level)) {
+				Effect.lightning(target, false);
+				tool.damageItem(2, player);
+			}
+		}
+	}
+
+}

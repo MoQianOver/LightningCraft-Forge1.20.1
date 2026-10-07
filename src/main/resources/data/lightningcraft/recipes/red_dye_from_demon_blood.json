@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [{ "type": "forge:partial_nbt", "item": "lightningcraft:material", "nbt": "{Damage:5}" }],
+  "result": {"item": "minecraft:red_dye", "count": 6}
+}

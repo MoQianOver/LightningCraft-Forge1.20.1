@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["XXX"],
+  "key": {
+    "X": { "item": "minecraft:gold_ingot" }
+  },
+  "result": {"item": "lightningcraft:plate", "count": 3, "nbt": "{Damage:5}"}
+}

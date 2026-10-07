@@ -1,0 +1,14 @@
+{
+    "parent": "lightningcraft:item/rod_0",
+    "overrides": [
+        { "predicate": { "lightningcraft:meta": 1 }, "model": "lightningcraft:item/rod_1" },
+        { "predicate": { "lightningcraft:meta": 2 }, "model": "lightningcraft:item/rod_2" },
+        { "predicate": { "lightningcraft:meta": 3 }, "model": "lightningcraft:item/rod_3" },
+        { "predicate": { "lightningcraft:meta": 4 }, "model": "lightningcraft:item/rod_4" },
+        { "predicate": { "lightningcraft:meta": 5 }, "model": "lightningcraft:item/rod_5" },
+        { "predicate": { "lightningcraft:meta": 6 }, "model": "lightningcraft:item/rod_6" },
+        { "predicate": { "lightningcraft:meta": 7 }, "model": "lightningcraft:item/rod_7" },
+        { "predicate": { "lightningcraft:meta": 8 }, "model": "lightningcraft:item/rod_8" },
+        { "predicate": { "lightningcraft:meta": 9 }, "model": "lightningcraft:item/rod_9" }
+    ]
+}

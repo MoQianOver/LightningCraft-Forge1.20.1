@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["XCX", "GAG", "XIX"],
+  "key": {
+    "X": { "type": "forge:partial_nbt", "item": "lightningcraft:plate", "nbt": "{Damage:5}" },
+    "C": { "type": "forge:partial_nbt", "item": "lightningcraft:plate", "nbt": "{Damage:7}" },
+    "G": { "type": "forge:partial_nbt", "item": "lightningcraft:plate", "nbt": "{Damage:8}" },
+    "A": { "item": "lightningcraft:lightning_breaker" },
+    "I": { "item": "lightningcraft:elec_pick" }
+  },
+  "result": {"item": "lightningcraft:lightning_miner", "count": 1}
+}

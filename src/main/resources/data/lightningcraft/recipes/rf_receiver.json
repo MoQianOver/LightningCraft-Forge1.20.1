@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["BRB", "CAC", "BCB"],
+  "key": {
+    "B": { "tag": "forge:storage_blocks/redstone" },
+    "R": { "item": "minecraft:comparator" },
+    "C": { "type": "forge:partial_nbt", "item": "lightningcraft:plate", "nbt": "{Damage:0}" },
+    "A": { "tag": "forge:storage_blocks/gold" }
+  },
+  "result": {"item": "lightningcraft:rf_receiver", "count": 1}
+}

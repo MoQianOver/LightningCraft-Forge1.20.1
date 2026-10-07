@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["XXX"],
+  "key": {
+    "X": { "item": "lightningcraft:wood_plank" }
+  },
+  "result": {"item": "lightningcraft:slab_block", "count": 6, "nbt": "{Damage:3}"}
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "lightningcraft:item/item_magnet_0",
+    "overrides": [
+        { "predicate": { "lightningcraft:meta": 1 }, "model": "lightningcraft:item/item_magnet_1" },
+        { "predicate": { "lightningcraft:meta": 2 }, "model": "lightningcraft:item/item_magnet_2" },
+        { "predicate": { "lightningcraft:meta": 3 }, "model": "lightningcraft:item/item_magnet_3" }
+    ]
+}

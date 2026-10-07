@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "lightningcraft:block/demonstone_bricks_carved"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "render_type": "minecraft:cutout",
+    "parent": "lightningcraft:block/lightning_receiver",
+	"textures": {
+        "0": "lightningcraft:block/transmitter_side",
+        "1": "block/iron_block",
+		"particle": "lightningcraft:block/transmitter_side"
+    }
+}

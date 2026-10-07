@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["X", "X"],
+  "key": {
+    "X": { "type": "forge:partial_nbt", "item": "lightningcraft:slab_block", "nbt": "{Damage:0}" }
+  },
+  "result": {"item": "lightningcraft:stone_block", "count": 1, "nbt": "{Damage:2}"}
+}

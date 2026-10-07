@@ -1,0 +1,24 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "pattern":  [
+                    "XX",
+                    "XI",
+                    " I"
+                ],
+    "key":  {
+                "X":  {
+                          "type":  "forge:partial_nbt",
+                          "item":  "lightningcraft:ingot",
+                          "nbt":  "{Damage:1}"
+                      },
+                "I":  {
+                          "type":  "forge:partial_nbt",
+                          "item":  "lightningcraft:rod",
+                          "nbt":  "{Damage:8}"
+                      }
+            },
+    "result":  {
+                   "item":  "lightningcraft:sky_axe",
+                   "count":  1
+               }
+}

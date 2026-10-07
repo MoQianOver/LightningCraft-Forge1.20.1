@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["XXX", "X X"],
+  "key": {
+    "X": { "type": "forge:partial_nbt", "item": "lightningcraft:ingot", "nbt": "{Damage:1}" }
+  },
+  "result": {"item": "lightningcraft:sky_helm", "count": 1}
+}

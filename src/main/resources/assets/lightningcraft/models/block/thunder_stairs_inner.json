@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "lightningcraft:block/thunderstone_bricks",
+        "top": "lightningcraft:block/thunderstone_bricks",
+        "side": "lightningcraft:block/thunderstone_bricks"
+    }
+}

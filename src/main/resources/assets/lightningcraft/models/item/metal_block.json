@@ -1,0 +1,7 @@
+{
+    "parent": "lightningcraft:block/elec_block",
+    "overrides": [
+        { "predicate": { "lightningcraft:meta": 1 }, "model": "lightningcraft:block/sky_block" },
+        { "predicate": { "lightningcraft:meta": 2 }, "model": "lightningcraft:block/mystic_block" }
+    ]
+}

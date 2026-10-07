@@ -1,0 +1,8 @@
+{
+    "parent": "lightningcraft:block/thunderstone_brick",
+    "overrides": [
+        { "predicate": { "lightningcraft:meta": 1 }, "model": "lightningcraft:block/demonstone_brick" },
+        { "predicate": { "lightningcraft:meta": 2 }, "model": "lightningcraft:block/understone_brick" },
+        { "predicate": { "lightningcraft:meta": 3 }, "model": "lightningcraft:block/underworld_planks" }
+    ]
+}

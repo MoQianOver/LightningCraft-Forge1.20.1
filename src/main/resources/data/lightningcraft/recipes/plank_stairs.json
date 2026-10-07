@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["X  ", "XX ", "XXX"],
+  "key": {
+    "X": { "item": "lightningcraft:wood_plank" }
+  },
+  "result": {"item": "lightningcraft:under_plank_stairs", "count": 4}
+}

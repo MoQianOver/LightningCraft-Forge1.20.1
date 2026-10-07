@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["TCT", "XAX", "XEX"],
+  "key": {
+    "T": { "type": "forge:partial_nbt", "item": "lightningcraft:stone_block", "nbt": "{Damage:8}" },
+    "C": { "item": "minecraft:comparator" },
+    "X": { "type": "forge:partial_nbt", "item": "lightningcraft:stone_block", "nbt": "{Damage:5}" },
+    "A": { "type": "forge:partial_nbt", "item": "lightningcraft:material", "nbt": "{Damage:9}" },
+    "E": { "item": "minecraft:enchanting_table" }
+  },
+  "result": {"item": "lightningcraft:ench_reallocator", "count": 1}
+}

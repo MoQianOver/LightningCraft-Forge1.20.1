@@ -1,0 +1,20 @@
+{
+    "variants": {
+		"variant=0": { "model": "lightningcraft:block/lightning_cell" },
+		"variant=1": { "model": "lightningcraft:block/lightning_cell_advanced" },
+		"variant=2": { "model": "lightningcraft:block/lightning_cell_mystic" },
+		"variant=3": { "model": "lightningcraft:block/lightning_cell_creative" },
+        "variant=4": { "model": "lightningcraft:block/lightning_cell" },
+        "variant=5": { "model": "lightningcraft:block/lightning_cell" },
+        "variant=6": { "model": "lightningcraft:block/lightning_cell" },
+        "variant=7": { "model": "lightningcraft:block/lightning_cell" },
+        "variant=8": { "model": "lightningcraft:block/lightning_cell" },
+        "variant=9": { "model": "lightningcraft:block/lightning_cell" },
+        "variant=10": { "model": "lightningcraft:block/lightning_cell" },
+        "variant=11": { "model": "lightningcraft:block/lightning_cell" },
+        "variant=12": { "model": "lightningcraft:block/lightning_cell" },
+        "variant=13": { "model": "lightningcraft:block/lightning_cell" },
+        "variant=14": { "model": "lightningcraft:block/lightning_cell" },
+        "variant=15": { "model": "lightningcraft:block/lightning_cell" }
+    }
+}

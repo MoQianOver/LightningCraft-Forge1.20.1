@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["XXX"],
+  "key": {
+    "X": { "type": "forge:partial_nbt", "item": "lightningcraft:ingot", "nbt": "{Damage:1}" }
+  },
+  "result": {"item": "lightningcraft:plate", "count": 3, "nbt": "{Damage:8}"}
+}

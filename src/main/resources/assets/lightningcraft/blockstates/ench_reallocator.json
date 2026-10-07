@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "active=false": { "model": "lightningcraft:block/ench_reallocator" },
+		"active=true": { "model": "lightningcraft:block/ench_reallocator" }
+    }
+}

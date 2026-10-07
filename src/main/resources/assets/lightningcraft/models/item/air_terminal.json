@@ -1,0 +1,14 @@
+{
+    "parent": "lightningcraft:block/air_terminal",
+    "overrides": [
+        { "predicate": { "lightningcraft:meta": 1 }, "model": "lightningcraft:block/air_terminal" },
+        { "predicate": { "lightningcraft:meta": 2 }, "model": "lightningcraft:block/air_terminal" },
+        { "predicate": { "lightningcraft:meta": 3 }, "model": "lightningcraft:block/air_terminal" },
+        { "predicate": { "lightningcraft:meta": 4 }, "model": "lightningcraft:block/air_terminal" },
+        { "predicate": { "lightningcraft:meta": 5 }, "model": "lightningcraft:block/air_terminal" },
+        { "predicate": { "lightningcraft:meta": 6 }, "model": "lightningcraft:block/air_terminal" },
+        { "predicate": { "lightningcraft:meta": 7 }, "model": "lightningcraft:block/air_terminal" },
+        { "predicate": { "lightningcraft:meta": 8 }, "model": "lightningcraft:block/air_terminal" },
+        { "predicate": { "lightningcraft:meta": 9 }, "model": "lightningcraft:block/air_terminal" }
+    ]
+}

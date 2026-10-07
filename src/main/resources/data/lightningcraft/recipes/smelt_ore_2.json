@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": { "type": "forge:partial_nbt", "item": "lightningcraft:ore_block", "nbt": "{Damage:2}" },
+  "result": {"item": "minecraft:diamond", "count": 2},
+  "experience": 1.0,
+  "cookingtime": 200
+}

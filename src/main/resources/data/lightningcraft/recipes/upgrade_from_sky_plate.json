@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" R ", "RXR", " R "],
+  "key": {
+    "X": { "type": "forge:partial_nbt", "item": "lightningcraft:plate", "nbt": "{Damage:8}" },
+    "R": { "tag": "forge:dusts/redstone" }
+  },
+  "result": {"item": "lightningcraft:material", "count": 1, "nbt": "{Damage:4}"}
+}

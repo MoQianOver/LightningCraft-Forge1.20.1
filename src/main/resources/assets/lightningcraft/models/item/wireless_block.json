@@ -1,0 +1,10 @@
+{
+    "parent": "lightningcraft:block/lightning_transmitter",
+    "overrides": [
+        { "predicate": { "lightningcraft:meta": 1 }, "model": "lightningcraft:block/lightning_transmitter" },
+        { "predicate": { "lightningcraft:meta": 2 }, "model": "lightningcraft:block/lightning_transmitter" },
+        { "predicate": { "lightningcraft:meta": 3 }, "model": "lightningcraft:block/lightning_receiver" },
+        { "predicate": { "lightningcraft:meta": 4 }, "model": "lightningcraft:block/lightning_receiver" },
+        { "predicate": { "lightningcraft:meta": 5 }, "model": "lightningcraft:block/lightning_receiver" }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["XCX", "GAG", "XIX"],
+  "key": {
+    "X": { "type": "forge:partial_nbt", "item": "lightningcraft:plate", "nbt": "{Damage:0}" },
+    "C": { "item": "minecraft:comparator" },
+    "G": { "type": "forge:partial_nbt", "item": "lightningcraft:plate", "nbt": "{Damage:5}" },
+    "A": { "tag": "forge:storage_blocks/iron" },
+    "I": { "item": "minecraft:diamond_pickaxe" }
+  },
+  "result": {"item": "lightningcraft:lightning_breaker", "count": 1}
+}

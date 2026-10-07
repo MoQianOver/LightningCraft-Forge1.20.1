@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" I ", " X ", "PIP"],
+  "key": {
+    "I": { "item": "minecraft:iron_ingot" },
+    "X": { "type": "forge:partial_nbt", "item": "lightningcraft:rod", "nbt": "{Damage:0}" },
+    "P": { "type": "forge:partial_nbt", "item": "lightningcraft:plate", "nbt": "{Damage:0}" }
+  },
+  "result": {"item": "lightningcraft:air_terminal", "count": 1, "nbt": "{Damage:0}"}
+}

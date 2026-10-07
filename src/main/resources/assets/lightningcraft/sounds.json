@@ -1,0 +1,80 @@
+{
+    "mob.demon_soldier.idle":
+    {
+        "category": "hostile",
+        "sounds":
+        [
+            "lightningcraft:mob/demon_soldier/idle"
+        ],
+		"subtitle": "subtitle.mob.demon_soldier.idle"
+    },
+    "mob.demon_soldier.hurt":
+    {
+        "category": "hostile",
+        "sounds":
+        [
+            "lightningcraft:mob/demon_soldier/hurt"
+        ],
+		"subtitle": "subtitle.mob.demon_soldier.hurt"
+    },
+    "mob.demon_soldier.death":
+    {
+        "category": "hostile",
+        "sounds":
+        [
+            "lightningcraft:mob/demon_soldier/death"
+        ],
+		"subtitle": "subtitle.mob.demon_soldier.death"
+    },
+	
+	"mob.underworld_ghast.moan":
+    {
+        "category": "hostile",
+        "sounds":
+        [
+            "lightningcraft:mob/underworld_ghast/moan_1",
+			"lightningcraft:mob/underworld_ghast/moan_2",
+			"lightningcraft:mob/underworld_ghast/moan_3"
+        ],
+		"subtitle": "subtitle.mob.underworld_ghast.moan"
+    },
+	"mob.underworld_ghast.warn":
+    {
+        "category": "hostile",
+        "sounds":
+        [
+            "lightningcraft:mob/underworld_ghast/warn"
+        ],
+		"subtitle": "subtitle.mob.underworld_ghast.warn"
+    },
+	"mob.underworld_ghast.hurt":
+    {
+        "category": "hostile",
+        "sounds":
+        [
+            "lightningcraft:mob/underworld_ghast/hurt_1",
+			"lightningcraft:mob/underworld_ghast/hurt_2"
+        ],
+		"subtitle": "subtitle.mob.underworld_ghast.hurt"
+    },
+	"mob.underworld_ghast.death":
+    {
+        "category": "hostile",
+        "sounds":
+        [
+            "lightningcraft:mob/underworld_ghast/death"
+        ],
+		"subtitle": "subtitle.mob.underworld_ghast.death"
+    },
+	
+	"portal.underworld":
+	   {
+        "category": "ambient",
+        "sounds":
+        [
+            "lightningcraft:portal/underworld"
+        ],
+		"subtitle": "subtitle.portal.underworld"
+    }
+	
+}

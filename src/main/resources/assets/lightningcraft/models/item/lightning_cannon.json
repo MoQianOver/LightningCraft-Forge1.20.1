@@ -1,0 +1,7 @@
+{
+    "parent": "lightningcraft:block/underworld_cannon",
+    "overrides": [
+        { "predicate": { "lightningcraft:meta": 1 }, "model": "lightningcraft:block/lightning_cannon" },
+        { "predicate": { "lightningcraft:meta": 2 }, "model": "lightningcraft:block/elite_lightning_cannon" }
+    ]
+}

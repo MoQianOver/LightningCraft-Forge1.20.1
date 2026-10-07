@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["RUR", "RBR", "RIR"],
+  "key": {
+    "R": { "tag": "forge:dusts/redstone" },
+    "U": { "type": "forge:partial_nbt", "item": "lightningcraft:material", "nbt": "{Damage:4}" },
+    "B": {"item": "lightningcraft:battery", "count": 1, "nbt": "{Damage:0}"},
+    "I": { "type": "forge:partial_nbt", "item": "lightningcraft:rod", "nbt": "{Damage:7}" }
+  },
+  "result": {"item": "lightningcraft:battery", "count": 1, "nbt": "{Damage:1}"}
+}

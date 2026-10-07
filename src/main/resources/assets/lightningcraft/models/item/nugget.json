@@ -1,0 +1,7 @@
+{
+    "parent": "lightningcraft:item/nugget_0",
+    "overrides": [
+        { "predicate": { "lightningcraft:meta": 1 }, "model": "lightningcraft:item/nugget_1" },
+        { "predicate": { "lightningcraft:meta": 2 }, "model": "lightningcraft:item/nugget_2" }
+    ]
+}

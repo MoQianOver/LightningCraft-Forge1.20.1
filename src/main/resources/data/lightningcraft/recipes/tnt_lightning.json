@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["GSG", "SGS", "GSG"],
+  "key": {
+    "G": { "type": "forge:partial_nbt", "item": "lightningcraft:material", "nbt": "{Damage:13}" },
+    "S": { "item": "lightningcraft:under_sand" }
+  },
+  "result": {"item": "lightningcraft:under_tnt", "count": 1, "nbt": "{Damage:1}"}
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["ZCZ", "XAX", "ZIZ"],
+  "key": {
+    "Z": { "item": "minecraft:iron_bars" },
+    "C": { "item": "minecraft:comparator" },
+    "X": { "item": "minecraft:obsidian" },
+    "A": { "item": "lightningcraft:lightning_furnace" },
+    "I": { "type": "forge:partial_nbt", "item": "lightningcraft:plate", "nbt": "{Damage:7}" }
+  },
+  "result": {"item": "lightningcraft:lightning_crusher", "count": 1}
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["RBR", "BLB", "RBR"],
+  "key": {
+    "R": { "item": "minecraft:glowstone" },
+    "B": { "type": "forge:partial_nbt", "item": "lightningcraft:stone_block", "nbt": "{Damage:8}" },
+    "L": { "type": "forge:partial_nbt", "item": "lightningcraft:light_block", "nbt": "{Damage:0}" }
+  },
+  "result": {"item": "lightningcraft:light_block", "count": 4, "nbt": "{Damage:1}"}
+}

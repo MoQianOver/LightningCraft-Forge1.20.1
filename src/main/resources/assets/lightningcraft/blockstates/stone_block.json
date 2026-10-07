@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "variant=0": { "model": "lightningcraft:block/thunderstone" },
+		"variant=1": { "model": "lightningcraft:block/thunderstone_brick" },
+		"variant=2": { "model": "lightningcraft:block/thunderstone_brick_chiseled" },
+		"variant=3": { "model": "lightningcraft:block/demonstone" },
+		"variant=4": { "model": "lightningcraft:block/demonstone_brick" },
+		"variant=5": { "model": "lightningcraft:block/demonstone_brick_chiseled" },
+		"variant=6": { "model": "lightningcraft:block/understone" },
+		"variant=7": { "model": "lightningcraft:block/understone_brick" },
+		"variant=8": { "model": "lightningcraft:block/understone_brick_chiseled" },
+		"variant=9": { "model": "lightningcraft:block/thunderstone_brick_fancy" },
+		"variant=10": { "model": "lightningcraft:block/demonstone_brick_fancy" },
+		"variant=11": { "model": "lightningcraft:block/understone_brick_fancy" },
+		"variant=12": { "model": "lightningcraft:block/thunderstone_brick_fancy_2" },
+		"variant=13": { "model": "lightningcraft:block/demonstone_brick_fancy_2" },
+		"variant=14": { "model": "lightningcraft:block/understone_brick_fancy_2" },
+        "variant=15": { "model": "lightningcraft:block/thunderstone" }
+    }
+}

@@ -1,0 +1,50 @@
+package org.lightningcraft.items.base;
+
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.Tier;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import org.lightningcraft.api.registry.ILightningCraftItem;
+import org.lightningcraft.api.util.LCOreDictionary;
+import org.lightningcraft.util.LCMisc;
+import org.lightningcraft.util.ToolHelper;
+
+public class ItemAxeLC extends ItemAxeNotStupid implements ILightningCraftItem {
+
+	private final Rarity rarity;
+	private final Tier mat;
+
+	public ItemAxeLC(Tier mat, float damageModifier, float speedModifier, Rarity rarity) {
+		super(mat, damageModifier, speedModifier);
+		this.mat = mat;
+		this.rarity = rarity;
+	}
+
+	public ItemAxeLC(Tier mat, Rarity rarity) {
+		super(mat);
+		this.mat = mat;
+		this.rarity = rarity;
+	}
+
+	public ItemAxeLC(Tier mat) {
+		this(mat, DYNAMIC);
+	}
+
+	@Override
+	public void setRarity() {}
+
+	@Override
+	@OnlyIn(Dist.CLIENT)
+	public Rarity getRarity(ItemStack stack) {
+		if (rarity != DYNAMIC) return rarity;
+		return LCMisc.getRarityFromStack(ToolHelper.getRepairStack(mat));
+	}
+
+	@Override
+	public boolean isValidRepairItem(ItemStack toRepair, ItemStack repair) {
+		ItemStack matStack = ToolHelper.getRepairStack(mat);
+		return !matStack.isEmpty() && LCOreDictionary.itemMatches(matStack, repair, false);
+	}
+
+}

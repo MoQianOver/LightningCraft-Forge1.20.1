@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" T ", "XOX", "XCX"],
+  "key": {
+    "T": {"item": "lightningcraft:air_terminal", "count": 1, "nbt": "{Damage:9}"},
+    "X": { "tag": "forge:storage_blocks/gold" },
+    "O": {"item": "lightningcraft:wireless_block", "count": 1, "nbt": "{Damage:4}"},
+    "C": { "tag": "forge:storage_blocks/redstone" }
+  },
+  "result": {"item": "lightningcraft:wireless_block", "count": 1, "nbt": "{Damage:5}"}
+}

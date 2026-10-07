@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["ICI", "IBI", "IRI"],
+  "key": {
+    "I": { "type": "forge:partial_nbt", "item": "lightningcraft:rod", "nbt": "{Damage:0}" },
+    "C": { "item": "minecraft:comparator" },
+    "B": { "type": "forge:partial_nbt", "item": "lightningcraft:plate", "nbt": "{Damage:7}" },
+    "R": { "tag": "forge:dusts/redstone" }
+  },
+  "result": {"item": "lightningcraft:battery", "count": 1, "nbt": "{Damage:0}"}
+}

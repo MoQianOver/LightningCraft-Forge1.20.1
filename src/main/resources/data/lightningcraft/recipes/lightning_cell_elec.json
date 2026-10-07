@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["XAX", "IBI", "XAX"],
+  "key": {
+    "X": { "type": "forge:partial_nbt", "item": "lightningcraft:rod", "nbt": "{Damage:0}" },
+    "A": { "tag": "forge:dusts/redstone" },
+    "I": { "type": "forge:partial_nbt", "item": "lightningcraft:plate", "nbt": "{Damage:7}" },
+    "B": { "type": "forge:partial_nbt", "item": "lightningcraft:plate", "nbt": "{Damage:5}" }
+  },
+  "result": {"item": "lightningcraft:lightning_cell", "count": 1, "nbt": "{Damage:0}"}
+}

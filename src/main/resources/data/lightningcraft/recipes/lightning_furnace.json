@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["XCX", "XAX", "XIX"],
+  "key": {
+    "X": { "tag": "forge:cobblestone" },
+    "C": { "item": "minecraft:comparator" },
+    "A": { "item": "minecraft:furnace" },
+    "I": { "type": "forge:partial_nbt", "item": "lightningcraft:plate", "nbt": "{Damage:0}" }
+  },
+  "result": {"item": "lightningcraft:lightning_furnace", "count": 1}
+}

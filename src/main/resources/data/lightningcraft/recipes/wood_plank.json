@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [{ "item": "lightningcraft:wood_log" }],
+  "result": {"item": "lightningcraft:wood_plank", "count": 4}
+}

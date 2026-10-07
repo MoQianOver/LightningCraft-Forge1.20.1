@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["XCX", "COC", "XCX"],
+  "key": {
+    "X": { "item": "minecraft:quartz_block" },
+    "C": { "item": "minecraft:comparator" },
+    "O": {"item": "lightningcraft:lightning_cell", "count": 1, "nbt": "{Damage:0}"}
+  },
+  "result": {"item": "lightningcraft:static_generator", "count": 1}
+}

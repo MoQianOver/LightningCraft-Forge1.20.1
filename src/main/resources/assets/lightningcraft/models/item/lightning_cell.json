@@ -1,0 +1,8 @@
+{
+    "parent": "lightningcraft:block/lightning_cell",
+    "overrides": [
+        { "predicate": { "lightningcraft:meta": 1 }, "model": "lightningcraft:block/lightning_cell_advanced" },
+        { "predicate": { "lightningcraft:meta": 2 }, "model": "lightningcraft:block/lightning_cell_mystic" },
+        { "predicate": { "lightningcraft:meta": 3 }, "model": "lightningcraft:block/lightning_cell_creative" }
+    ]
+}

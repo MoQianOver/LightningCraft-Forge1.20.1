@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" T ", "XOX", "XCX"],
+  "key": {
+    "T": {"item": "lightningcraft:air_terminal", "count": 1, "nbt": "{Damage:7}"},
+    "X": { "type": "forge:partial_nbt", "item": "lightningcraft:plate", "nbt": "{Damage:5}" },
+    "O": { "type": "forge:partial_nbt", "item": "lightningcraft:material", "nbt": "{Damage:4}" },
+    "C": { "tag": "forge:dusts/redstone" }
+  },
+  "result": {"item": "lightningcraft:wireless_block", "count": 1, "nbt": "{Damage:3}"}
+}

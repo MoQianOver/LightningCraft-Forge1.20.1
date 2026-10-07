@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [{ "type": "forge:partial_nbt", "item": "lightningcraft:material", "nbt": "{Damage:7}" }],
+  "result": {"item": "lightningcraft:material", "count": 3, "nbt": "{Damage:8}"}
+}

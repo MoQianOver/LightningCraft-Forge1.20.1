@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "variant=0": { "model": "lightningcraft:block/underworld_light" },
+		"variant=1": { "model": "lightningcraft:block/underworld_lamp" },
+		"variant=2": { "model": "lightningcraft:block/underworld_lamp_fancy" },
+		"variant=3": { "model": "lightningcraft:block/underworld_lamp_fancy_2" },
+		"variant=4": { "model": "lightningcraft:block/underworld_lamp_fancy_3" },
+        "variant=5": { "model": "lightningcraft:block/underworld_light" },
+        "variant=6": { "model": "lightningcraft:block/underworld_light" },
+        "variant=7": { "model": "lightningcraft:block/underworld_light" },
+        "variant=8": { "model": "lightningcraft:block/underworld_light" },
+        "variant=9": { "model": "lightningcraft:block/underworld_light" },
+        "variant=10": { "model": "lightningcraft:block/underworld_light" },
+        "variant=11": { "model": "lightningcraft:block/underworld_light" },
+        "variant=12": { "model": "lightningcraft:block/underworld_light" },
+        "variant=13": { "model": "lightningcraft:block/underworld_light" },
+        "variant=14": { "model": "lightningcraft:block/underworld_light" },
+        "variant=15": { "model": "lightningcraft:block/underworld_light" }
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["INN", "  N", "INN"],
+  "key": {
+    "I": { "type": "forge:partial_nbt", "item": "lightningcraft:plate", "nbt": "{Damage:0}" },
+    "N": { "tag": "forge:storage_blocks/redstone" }
+  },
+  "result": {"item": "lightningcraft:item_magnet", "count": 1, "nbt": "{Damage:0}"}
+}

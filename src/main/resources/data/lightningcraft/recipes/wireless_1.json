@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" T ", "XOX", "XCX"],
+  "key": {
+    "T": {"item": "lightningcraft:air_terminal", "count": 1, "nbt": "{Damage:8}"},
+    "X": { "type": "forge:partial_nbt", "item": "lightningcraft:rod", "nbt": "{Damage:0}" },
+    "O": {"item": "lightningcraft:wireless_block", "count": 1, "nbt": "{Damage:0}"},
+    "C": { "item": "minecraft:comparator" }
+  },
+  "result": {"item": "lightningcraft:wireless_block", "count": 1, "nbt": "{Damage:1}"}
+}

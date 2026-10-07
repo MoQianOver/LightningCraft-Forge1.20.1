@@ -1,0 +1,8 @@
+{
+    "render_type": "minecraft:cutout",
+    "parent": "block/nether_portal_ns",
+    "textures": {
+        "particle": "lightningcraft:block/underworld_portal",
+		"portal": "lightningcraft:block/underworld_portal"
+    }
+}

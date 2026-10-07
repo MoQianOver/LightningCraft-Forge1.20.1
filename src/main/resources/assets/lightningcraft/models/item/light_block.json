@@ -1,0 +1,9 @@
+{
+    "parent": "lightningcraft:block/underworld_light",
+    "overrides": [
+        { "predicate": { "lightningcraft:meta": 1 }, "model": "lightningcraft:block/underworld_lamp" },
+        { "predicate": { "lightningcraft:meta": 2 }, "model": "lightningcraft:block/underworld_lamp_fancy" },
+        { "predicate": { "lightningcraft:meta": 3 }, "model": "lightningcraft:block/underworld_lamp_fancy_2" },
+        { "predicate": { "lightningcraft:meta": 4 }, "model": "lightningcraft:block/underworld_lamp_fancy_3" }
+    ]
+}

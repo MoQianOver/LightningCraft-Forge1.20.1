@@ -1,0 +1,10 @@
+{
+    "parent": "lightningcraft:block/under_tnt",
+    "overrides": [
+        { "predicate": { "lightningcraft:meta": 1 }, "model": "lightningcraft:block/lightning_tnt" },
+        { "predicate": { "lightningcraft:meta": 2 }, "model": "lightningcraft:block/mystic_tnt" },
+        { "predicate": { "lightningcraft:meta": 8 }, "model": "lightningcraft:block/under_tnt" },
+        { "predicate": { "lightningcraft:meta": 9 }, "model": "lightningcraft:block/lightning_tnt" },
+        { "predicate": { "lightningcraft:meta": 10 }, "model": "lightningcraft:block/mystic_tnt" }
+    ]
+}

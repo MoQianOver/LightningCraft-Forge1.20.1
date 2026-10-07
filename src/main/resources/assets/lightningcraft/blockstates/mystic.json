@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "level=0": { "model": "lightningcraft:block/molten_mystic" },
+        "level=1": { "model": "lightningcraft:block/molten_mystic" },
+        "level=2": { "model": "lightningcraft:block/molten_mystic" },
+        "level=3": { "model": "lightningcraft:block/molten_mystic" },
+        "level=4": { "model": "lightningcraft:block/molten_mystic" },
+        "level=5": { "model": "lightningcraft:block/molten_mystic" },
+        "level=6": { "model": "lightningcraft:block/molten_mystic" },
+        "level=7": { "model": "lightningcraft:block/molten_mystic" },
+        "level=8": { "model": "lightningcraft:block/molten_mystic" },
+        "level=9": { "model": "lightningcraft:block/molten_mystic" },
+        "level=10": { "model": "lightningcraft:block/molten_mystic" },
+        "level=11": { "model": "lightningcraft:block/molten_mystic" },
+        "level=12": { "model": "lightningcraft:block/molten_mystic" },
+        "level=13": { "model": "lightningcraft:block/molten_mystic" },
+        "level=14": { "model": "lightningcraft:block/molten_mystic" },
+        "level=15": { "model": "lightningcraft:block/molten_mystic" }
+    }
+}

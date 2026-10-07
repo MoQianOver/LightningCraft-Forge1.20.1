@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:book" },
+    { "type": "forge:partial_nbt", "item": "lightningcraft:rod", "nbt": "{Damage:7}" }
+  ],
+  "result": { "item": "lightningcraft:guide", "count": 1, "nbt": "{Damage:0}" }
+}

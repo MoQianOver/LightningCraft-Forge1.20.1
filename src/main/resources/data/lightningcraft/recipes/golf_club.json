@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" II", " X ", "I  "],
+  "key": {
+    "I": { "item": "minecraft:iron_ingot" },
+    "X": { "type": "forge:partial_nbt", "item": "lightningcraft:rod", "nbt": "{Damage:0}" }
+  },
+  "result": { "item": "lightningcraft:golf_club", "count": 1 }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["RCR", "RAR", "RER"],
+  "key": {
+    "R": { "tag": "forge:dusts/redstone" },
+    "C": { "item": "minecraft:comparator" },
+    "A": { "item": "minecraft:golden_sword" },
+    "E": { "type": "forge:partial_nbt", "item": "lightningcraft:plate", "nbt": "{Damage:7}" }
+  },
+  "result": {"item": "lightningcraft:kinetic_sword", "count": 1}
+}

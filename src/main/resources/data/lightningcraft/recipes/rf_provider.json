@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["BRB", "CAC", "BCB"],
+  "key": {
+    "B": { "type": "forge:partial_nbt", "item": "lightningcraft:plate", "nbt": "{Damage:7}" },
+    "R": { "item": "minecraft:comparator" },
+    "C": { "type": "forge:partial_nbt", "item": "lightningcraft:plate", "nbt": "{Damage:0}" },
+    "A": { "tag": "forge:storage_blocks/iron" }
+  },
+  "result": {"item": "lightningcraft:rf_provider", "count": 1}
+}

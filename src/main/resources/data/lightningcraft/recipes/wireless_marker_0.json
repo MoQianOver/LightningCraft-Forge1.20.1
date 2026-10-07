@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [{"item": "lightningcraft:wireless_marker", "count": 1, "nbt": "{Damage:1}"}],
+  "result": {"item": "lightningcraft:wireless_marker", "count": 1, "nbt": "{Damage:0}"}
+}

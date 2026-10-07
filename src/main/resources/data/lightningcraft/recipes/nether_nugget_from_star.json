@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [{ "item": "minecraft:nether_star" }],
+  "result": {"item": "lightningcraft:material", "count": 9, "nbt": "{Damage:0}"}
+}

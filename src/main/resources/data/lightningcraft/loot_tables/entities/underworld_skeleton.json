@@ -1,0 +1,25 @@
+{
+    "pools": [
+		{
+			"rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "lightningcraft:material",
+                    "weight": 1,
+                    "functions": [
+						{"function": "minecraft:set_damage", "damage": 7},
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {"type": "minecraft:uniform", "min": 0, "max": 2}
+                        },
+                        {
+                            "function": "minecraft:looting_enchant",
+                            "count": {"type": "minecraft:uniform", "min": 0, "max": 1}
+                        }
+                    ]
+                }
+			]
+		}
+    ]
+}

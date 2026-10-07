@@ -1,0 +1,7 @@
+{
+    "parent": "lightningcraft:item/dust_0",
+    "overrides": [
+        { "predicate": { "lightningcraft:meta": 1 }, "model": "lightningcraft:item/dust_1" },
+        { "predicate": { "lightningcraft:meta": 2 }, "model": "lightningcraft:item/dust_2" }
+    ]
+}

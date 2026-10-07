@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:ore",
+    "config": {
+        "size": 20,
+        "discard_chance_on_air_exposure": 0.0,
+        "targets": [
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "lightningcraft:stone_block"
+                },
+                "state": {
+                    "Name": "lightningcraft:ore_block",
+                    "Properties": { "variant": "0" }
+                }
+            }
+        ]
+    }
+}

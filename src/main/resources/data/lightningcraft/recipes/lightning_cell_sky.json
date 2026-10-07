@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["XAX", "IBI", "XAX"],
+  "key": {
+    "X": { "type": "forge:partial_nbt", "item": "lightningcraft:rod", "nbt": "{Damage:5}" },
+    "A": { "item": "minecraft:comparator" },
+    "I": { "type": "forge:partial_nbt", "item": "lightningcraft:plate", "nbt": "{Damage:8}" },
+    "B": {"item": "lightningcraft:lightning_cell", "count": 1, "nbt": "{Damage:0}"}
+  },
+  "result": {"item": "lightningcraft:lightning_cell", "count": 1, "nbt": "{Damage:1}"}
+}

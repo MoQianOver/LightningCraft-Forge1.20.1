@@ -1,0 +1,7 @@
+{
+    "parent": "lightningcraft:item/ingot_0",
+    "overrides": [
+        { "predicate": { "lightningcraft:meta": 1 }, "model": "lightningcraft:item/ingot_1" },
+        { "predicate": { "lightningcraft:meta": 2 }, "model": "lightningcraft:item/ingot_2" }
+    ]
+}

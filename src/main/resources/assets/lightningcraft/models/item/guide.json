@@ -1,0 +1,7 @@
+{
+    "parent": "lightningcraft:item/guide_0",
+    "overrides": [
+        { "predicate": { "lightningcraft:meta": 1 }, "model": "lightningcraft:item/guide_1" },
+        { "predicate": { "lightningcraft:meta": 2 }, "model": "lightningcraft:item/guide_2" }
+    ]
+}

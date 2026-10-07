@@ -1,0 +1,6 @@
+{
+    "type": "lightningcraft:underworld_water_temple",
+    "biomes": "#lightningcraft:has_structure/underworld",
+    "step": "surface_structures",
+    "spawn_overrides": {}
+}

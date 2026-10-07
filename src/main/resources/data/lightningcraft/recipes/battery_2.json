@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["RUR", "RBR", "RIR"],
+  "key": {
+    "R": { "tag": "forge:storage_blocks/redstone" },
+    "U": { "type": "forge:partial_nbt", "item": "lightningcraft:ingot", "nbt": "{Damage:1}" },
+    "B": {"item": "lightningcraft:battery", "count": 1, "nbt": "{Damage:1}"},
+    "I": { "type": "forge:partial_nbt", "item": "lightningcraft:metal_block", "nbt": "{Damage:0}" }
+  },
+  "result": {"item": "lightningcraft:battery", "count": 1, "nbt": "{Damage:2}"}
+}

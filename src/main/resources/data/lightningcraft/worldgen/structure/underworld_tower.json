@@ -1,0 +1,6 @@
+{
+    "type": "lightningcraft:underworld_tower",
+    "biomes": "#lightningcraft:has_structure/underworld",
+    "step": "surface_structures",
+    "spawn_overrides": {}
+}
